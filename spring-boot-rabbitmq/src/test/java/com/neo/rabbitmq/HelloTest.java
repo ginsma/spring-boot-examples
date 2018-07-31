@@ -18,6 +18,10 @@ public class HelloTest {
 	public void hello() throws Exception {
 		helloSender.send();
 	}
+	@Test
+	public void test(){
+		System.out.println(123);
+	}
 
 
 }
